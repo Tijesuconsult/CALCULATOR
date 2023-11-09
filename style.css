@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#bod{
+    height: 450px;
+    width: 300px;
+    background-color: rgb(31, 15, 15);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    outline-color: red;
+    border: 4px solid goldenrod;
+    outline-style: dashed;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.356), 0 6px 20px 0 rgba(0, 0, 0, 0.61);
+    animation: wave 1s infinite;
+}
+    @keyframes wave {
+    0%{border-color:  red;}
+    20%{border-color: gray;}
+    40%{border-color: blue;}
+    60%{border-color: green;}
+    80%{border-color: goldenrod;}
+    100%{border-color:aqua;}
+}
+p{
+    text-align: center;
+    margin-top: 20PX;
+    color: aqua;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    animation: move 5s infinite;
+}
+@keyframes move {
+    0%{color:  white;}
+    20%{color: goldenrod;}
+    40%{color: red;}
+    60%{color: aqua;}
+    80%{color: gray;}
+    100%{color:green;}
+}
+#display{
+    width: 250px;
+    height: 50px;
+    margin-left: 22px;
+    margin-top: 20px;
+    background-color: rgb(248, 245, 245);
+    padding-left: 10px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+button{
+    padding: 5px 10px;
+    font-size: 18px;
+    /* margin: 10px; */
+    margin-bottom: 20px;
+    margin-left: 28px;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: 600;
+    
+}
+.number{
+    margin-left: 60px;
+}
